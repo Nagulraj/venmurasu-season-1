@@ -9,7 +9,7 @@ import csv
 # soup = BeautifulSoup(page.content, "html.parser")
 
 def get_data(url,i):
-    driver = webdriver.Chrome(executable_path='/home/mohith/selenium_driver/chromedriver')
+    driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver')
     # driver.minimize_window()
     driver.get(url)
     # time.sleep(15)
